@@ -1,20 +1,23 @@
-
+body{
+    background-image: linear-gradient(to right,brown,lightblue,brown,grey);
+    height:110vh;
+}
 .container{border-radius:10px; 
  background:grey;
  border:2px solid blue;
- padding:10px 10px 20px 100px;
+ padding:10px 25px 20px 50px;
  height:280px;
- width:780px;font-size:10px;
- margin-top:15px;margin-left:14px;
+ width:680px;font-size:10px;
+ margin-top:15px;margin-left:74px;
 }
 
  .pad{
- 	width: 400px;height:190px;
-	margin-left: 110px;
-	margin-top:30px;
+ 	width: 340px;height:190px;
+	margin-left: 150px;
+	margin-top:40px;
 	border:2.2px solid blue;
-	background-color:grey;
-    border-radius: 9px;
+	background-color:dimgrey;
+    border-radius: 20px;
 
 }
 
@@ -62,7 +65,7 @@
     font-size:12px;
    border:1px solid blue;}
    
-.bo{width: 54px;
+.bo{width: 64px;
 	height:43px;
 	padding-top:2px;
 	color:white;
@@ -72,7 +75,9 @@
     border:1px solid blue;
     position:relative;top:7px; left:1.5px;
   }
-
+.a,.b,.c1,.c,.d,.e,.f,.bo,.a2,.a1,.c1,.c2,.d1,.d2,.d3,.e1,.f1,.f2,.f3,.f4,.f5,.f6,.e1,.e2,.pad:hover{
+    cursor: pointer;
+}
 .c1{width: 55px;height:43px;
 	padding:4px;
 	color:white;
@@ -83,7 +88,7 @@
     border:1px solid blue;
  }
 
-.c2{width: 43px;
+.c2{width: 46px;
 	height:43px;
     border:1px solid blue;
 	color:white;
@@ -111,7 +116,7 @@
     position:relative;top:-5px;
     border:1px solid blue;}
 
-.d3{width: 73px;
+.d3{width: 80px;
 	height:43px;
 	color:white;
 	background-color:black;
@@ -196,16 +201,17 @@
 
     .cont1{
     	height:550px;
-    	width:925px;
-    	margin-left:0px;
+    	width:900px;
+    	margin-left:180px;
     	margin-bottom:7px;
     	padding-top:4px;
-    	border:2px solid blue;
+    	border:3px solid blue;
     	border-radius:15px;
     	background-color:black;
+        box-shadow: 10px 10px 3px black;
+        margin-top: 30px;
     }
 
 
 
 
-}
